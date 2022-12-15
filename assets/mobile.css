@@ -8,10 +8,10 @@ body{
 
 #items{
     position: absolute;
-    top: 10vh;
+    top: 14vh;
     right: 0;
     width: 30vw;
-    height: 90vh;
+    height: 86vh;
     background: #111;
     flex-direction: column;
     align-items: center;
