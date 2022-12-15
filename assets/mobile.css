@@ -114,13 +114,13 @@ body{
 
 .box .logos {
     width: 45px;
-    position: revert;
     position: relative;
     top: -20%;
     left: 130px;
     transform: none;
     font-size: 10rem;
     transition: none;
+    z-index: 1;
 }
 
 .box:hover .logos{
