@@ -101,7 +101,7 @@ body{
     padding: 20px;
     position: none;
     margin: 10px;
-    overflow: hidden;
+    overflow: none;
     position: unset;
 }
 
@@ -114,6 +114,7 @@ body{
 
 .box .logos {
     width: 45px;
+    position: revert;
     position: relative;
     top: -20%;
     left: 130px;
