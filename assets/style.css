@@ -78,6 +78,7 @@ a{
 
 
 #items{
+    font-size: 16px;
     display: flex;
     list-style: none;
 }

@@ -10,7 +10,7 @@ body{
     position: absolute;
     top: 8vh;
     right: 0;
-    width: 15vw;
+    width: 20vw;
     height: 92vh;
     background: #111;
     flex-direction: column;
@@ -24,6 +24,11 @@ body{
 #items li{
     margin-left: 0;
     opacity: 0;
+}
+
+
+#case{
+    background: url(fundo.jpg) no-repeat center center/cover;
 }
 .mobile-menu{
     display: block;
