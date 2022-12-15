@@ -180,8 +180,8 @@ a{
     text-align: center;
 }
 
-@media screen {
-    .container{
+
+.container{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -246,7 +246,7 @@ a{
     padding-left: 10px;
     padding-right: 10px;
 }
-}
+
 
 
 
