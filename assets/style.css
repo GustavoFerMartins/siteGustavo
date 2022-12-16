@@ -166,7 +166,7 @@ a{
     flex-direction: column;
     background: #333;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .feature-title{
@@ -195,7 +195,7 @@ a{
     background: #333;
     width: 200px;
     height: 250px;
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 20px;
     position: relative;
     margin: 10px;
