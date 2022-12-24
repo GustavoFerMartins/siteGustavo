@@ -161,15 +161,15 @@ h2{
     font-weight: bolder;
     font-size: 2rem;
     color: white;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
     text-align: center;
     line-height: 1;
 }
 
 .form{
     width: 100%;
-    max-width: 18rem;
+    max-width: 16rem;
     font-size: 1rem;
 }
 .form label,
