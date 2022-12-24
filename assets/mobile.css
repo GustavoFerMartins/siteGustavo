@@ -151,3 +151,83 @@ body{
     padding-left: 10px;
     padding-right: 10px;
 }
+
+
+/* Contact */
+
+
+
+h2{
+    font-weight: bolder;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 1rem;
+    text-align: center;
+    line-height: 1;
+}
+
+.form{
+    width: 100%;
+    max-width: 20rem;
+    font-size: 1rem;
+}
+.form label,
+.form input,
+.form textarea,
+.form button{
+    display: block;
+    width: 100%;
+}
+
+.form label{
+    font-weight: bolder;
+    color: white;
+    line-height: 1;
+    margin: 12px 0 12px;
+}
+
+.form input,
+.form textarea{
+    font: inherit;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: border-color;
+    box-shadow: 0.2s;
+}
+
+.form textarea{
+    min-height: 8rem;
+    resize: vertical;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus {
+    outline: none;
+    border-color: rgb(85, 0, 85);
+    box-shadow: 0 0 0 3px rgb(85, 0, 85);
+}
+
+
+.form button{
+    display: block;
+    padding: 1rem;
+    background: rgb(85, 0, 85);
+    color: azure;
+    font: inherit;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.form button:hover,
+.form button:focus{
+    outline: none;
+    background: purple;
+}
