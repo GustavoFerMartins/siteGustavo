@@ -25,13 +25,14 @@ a{
     background: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     border-radius: 5px;
-    transition: background 500ms ease;
+    transition: 1s all;
 }
 
 .btn:hover{
     cursor: pointer;
     background: rgb(255, 255, 255);
     color: black;
+    transform: scale(1.2);
 }
 
 .headline{
@@ -91,11 +92,13 @@ a{
     background: rgb(37, 37, 37);
     border-radius: 10px;
     margin-left: 15px;
+    transition: 1s all;
 }
 
 #items li:hover{
     background: rgb(255, 255, 255);
     color: #111;
+    transform: scale(1.2);
 }
 
 

@@ -1,5 +1,5 @@
 #case-contact{
-    background-color: rgb(31, 21, 21);
+    background-color: rgb(0, 0, 0);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -61,13 +61,15 @@ h2{
     outline: none;
     border-color: rgb(85, 0, 85);
     box-shadow: 0 0 0 3px rgb(85, 0, 85);
+    transition: 1s all;
+    transform: scale(1.05);
 }
 
 
 .form button{
     display: block;
     padding: 1rem;
-    background: rgb(85, 0, 85);
+    background: rgb(63, 0, 63);
     color: azure;
     font: inherit;
     font-weight: bolder;
@@ -75,11 +77,12 @@ h2{
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    transition: 0.2s;
+    transition: 1s all;
 }
 
 .form button:hover,
 .form button:focus{
     outline: none;
-    background: purple;
+    background: rgb(139, 57, 139);
+    transform: scale(1.05);
 }
