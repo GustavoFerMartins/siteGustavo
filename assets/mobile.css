@@ -25,12 +25,24 @@ body{
     margin-bottom: 4rem;
     margin-left: 0;
     opacity: 0;
+    transition: none;
 }
-
+#items li:hover{
+    transform: none;
+}
 
 #case{
     background: url(fundo.jpg) no-repeat center center/cover;
 }
+
+.btn {
+    transition: none;
+}
+
+.btn:hover{
+    transform: none;
+}
+
 .mobile-menu{
     display: block;
 }
