@@ -42,12 +42,16 @@
         <h2>Formulário de Contato</h2>
 
         <form action="https://formsubmit.co/gmartins23ustavo@gmail.com" method="POST" class="form">
-        <label for="nome">Nome</label>
+
+        <label for="name">Nome</label>
         <input type="text" name="name" id="name" required>
+
         <label for="email">E-Mail</label>
         <input type="email" name="email" id="email" required>
-        <label for="email">Mensagem</label>
+
+        <label for="texto">Mensagem</label>
         <textarea name="message" placeholder="Escreva Aqui" id="texto"></textarea>
+
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_next" value="https://site-gustavo2.vercel.app/contact.html">
         <button type="submit">Enviar</button>
