@@ -28,6 +28,7 @@ body{
     transition: none;
 }
 #items li:hover{
+    color: white;
     background: rgb(37, 37, 37);
     transform: none;
 }
@@ -41,6 +42,7 @@ body{
 }
 
 .btn:hover{
+    color: white;
     background: rgb(0, 0, 0);
     transform: none;
 }
