@@ -159,7 +159,7 @@ body{
 
 h2{
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 1rem;
     color: white;
     margin-top: 3rem;
     margin-bottom: 0.5rem;
@@ -169,7 +169,7 @@ h2{
 
 .form{
     width: 100%;
-    max-width: 16rem;
+    max-width: 14rem;
     font-size: 1rem;
 }
 .form label,
@@ -184,7 +184,7 @@ h2{
     font-weight: bolder;
     color: white;
     line-height: 1;
-    margin: 12px 0 12px;
+    margin: 11px 0 11px;
 }
 
 .form input,
@@ -199,7 +199,7 @@ h2{
 }
 
 .form textarea{
-    min-height: 8rem;
+    min-height: 6rem;
     resize: vertical;
 }
 
