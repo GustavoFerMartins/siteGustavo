@@ -190,7 +190,7 @@ h2{
 .form input,
 .form textarea{
     font: inherit;
-    padding: 1rem;
+    padding: 0.80rem;
     margin-bottom: 1rem;
     border: 1px solid transparent;
     border-radius: 10px;
@@ -199,7 +199,7 @@ h2{
 }
 
 .form textarea{
-    min-height: 6rem;
+    min-height: 6.50rem;
     resize: vertical;
 }
 
@@ -215,7 +215,7 @@ h2{
 
 .form button{
     display: block;
-    padding: 1rem;
+    padding: 0.80rem;
     background: rgb(85, 0, 85);
     color: azure;
     font: inherit;
