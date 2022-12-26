@@ -74,7 +74,7 @@ body{
 
 
 .container{
-    max-width: 768px;
+    max-width: 668px;
     margin: 0 auto;
     height: 280vh;
     display: grid;
@@ -145,7 +145,6 @@ body{
     width: 350px;
     height: 597px;
     grid-area: "sobre";
-    grid-row: sobre;
     
 }
 
@@ -165,15 +164,15 @@ body{
 
 .tempo{
     margin: 0px 0px 0px 0px;
-    width: 550px;
+    width: 350px;
     height: 430px;
     grid-area: "tempo";
     
 }
 
 .goku{
-    width: 150px;
-    height: 100px;
+    width: 0px;
+    height: 0px;
 }
 .tempo-wid{
     width: 200px;
