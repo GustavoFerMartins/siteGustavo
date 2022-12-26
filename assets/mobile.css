@@ -71,6 +71,177 @@ body{
 }
 
 
+.container{
+    max-width: 568px;
+    margin: 0 auto;
+    height: 100vh;
+    display: grid;
+
+    grid-template-areas: 
+    "sobre "
+    "curso-progresso"
+    "tempo";
+
+}
+
+.curso-progresso{
+    font-weight: bold;
+    margin-top: 45px;
+    width: 350px;
+    height: 30px;
+}
+.curso-progresso h2{
+    font-size: 1.2rem;
+}
+
+.curso{
+    margin: 0px 0px 0px 10px;
+    border-radius: 10px;
+    width: 350px;
+    height: 130px;
+    background: linear-gradient(#100033, rgb(6, 5, 104));
+    grid-area: "curso";
+    display: flex;
+    align-items: center;
+    
+}
+
+.curso-andamento-logo{
+    margin: 0 30px 0 20px;
+}
+
+.curso p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.porcentagem{
+    background: rgb(255, 255, 255);
+    margin-left: 20px;
+    width: 280px;
+    height: 30px;
+    border-radius: 10px;
+}
+.porcentagem div{
+    background: rgb(0, 87, 138);
+    width: 280px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#tecnologo{
+    font-size: 1.2rem;
+}
+
+.sobre{
+    margin: 0px 0px 0px 10px;
+    border-radius: 10px;
+    width: 350px;
+    height: 597px;
+    grid-area: "sobre";
+    
+}
+
+.sobre .feature{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.sobre h2{
+    font-size: 1.2rem;
+}
+
+.tempo{
+    width: 0px;
+    height: 0px;
+    
+}
+
+.goku{
+    width: 0px;
+    height: 0px;
+}
+.relogio{
+    width: 0px;
+    height: 0px;
+}
+.tempo-wid{
+    width: 0px;
+    height: 0px;
+}
+
+
+
+.container-box{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 5px;
+    justify-items: center;
+}
+
+
+.box{
+    background: linear-gradient(#100033, rgb(6, 5, 104));
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 15px;
+    position: none;
+    margin: 10px;
+    overflow: none;
+    position: unset;
+}
+
+.box:hover{
+    opacity: 100%;
+}
+.box h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.box .logos {
+    width: 0px;
+    height: 0px;
+
+}
+
+.box .content{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    width: 100%;
+    height: 100%;
+    position: unset;
+    transition: none;
+    padding: 50px 0px;
+    margin-top: -60px;
+    margin-left: -10px;
+}
+
+
+.box:hover .content{
+    transform: none;
+}
+
+.box .content p{
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 
 
