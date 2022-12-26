@@ -90,7 +90,6 @@ body{
     "sobre curso"
     "sobre tempo";
     justify-content: space-between;
-    align-items: center;
     
 }
 
@@ -184,15 +183,16 @@ body{
 .goku{
     width: 150px;
     height: 100px;
+    margin: auto;
 }
 .relogio{
-    width: 150px;
-    height: 150px;
-    margin-bottom: -30px;
+    width: auto;
+    height: auto;
+    margin-bottom: auto;
 }
 .tempo-wid{
-    width: 150px;
-    height: 550px;
+    width: auto;
+    height: auto;
 }
 
 
