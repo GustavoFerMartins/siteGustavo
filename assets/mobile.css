@@ -77,6 +77,9 @@ body{
     }
 }
 
+.headline{
+    height: 7vh;
+}
 
 .container{
     height: 160vh;
