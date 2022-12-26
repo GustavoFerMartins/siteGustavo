@@ -96,7 +96,7 @@ body{
 .curso-progresso{
     font-weight: bold;
     margin: auto;
-    width: 150px;
+    width: auto;
     height: 10px;
 }
 .curso-progresso h2{
