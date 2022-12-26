@@ -166,12 +166,13 @@ body{
 }
 
 .goku{
-    width: 0px;
-    height: 0px;
+    width: 150px;
+    height: 100px;
 }
 .relogio{
     width: 150px;
     height: 150px;
+    margin-bottom: -30px;
 }
 .tempo-wid{
     width: 150px;
