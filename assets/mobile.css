@@ -72,32 +72,30 @@ body{
 
 
 .container{
-    max-width: 568px;
-    margin: 0 auto;
-    height: 100vh;
-    display: grid;
-
+    height: 150vh;
     grid-template-areas: 
-    "sobre "
+    "sobre curso-progresso"
+    "sobre curso"
+    "sobre tempo";
     
-
 }
 
 .curso-progresso{
     font-weight: bold;
-    margin-top: 0px;
-    width: 0px;
-    height: 0px;
+    margin-top: 28px;
+    margin-bottom: 0px;
+    width: 250px;
+    height: 10px;
 }
 .curso-progresso h2{
-    font-size: 0rem;
+    font-size: 1rem;
 }
 
 .curso{
-    margin: 0px 0px 0px 0px;
-    border-radius: 0px;
-    width: 0px;
-    height: 0px;
+    margin-top: -350px;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
     background: linear-gradient(#100033, rgb(6, 5, 104));
     grid-area: "curso";
     display: flex;
@@ -106,24 +104,25 @@ body{
 }
 
 .curso-andamento-logo{
-    margin: 0px;
+    margin: 10px;
+    width: 28px;
 }
 
 .curso p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 0px;
+    font-size: 10px;
     font-weight: bold;
-    margin: 0px;
-    border-radius: 0px;
+    margin: 5px;
+    border-radius: 10px;
     color: rgb(255, 255, 255);
 }
 
 .porcentagem{
     background: rgb(255, 255, 255);
     margin-left: 0px;
-    width: 0px;
-    height: 0px;
-    border-radius: 0px;
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
 }
 .porcentagem div{
     background: rgb(0, 87, 138);
@@ -139,8 +138,8 @@ body{
 .sobre{
     margin: 0px 0px 0px 10px;
     border-radius: 10px;
-    width: 350px;
-    height: 597px;
+    width: 200px;
+    height: 1080px;
     grid-area: "sobre";
     
 }
@@ -160,22 +159,23 @@ body{
 }
 
 .tempo{
-    width: 0px;
-    height: 0px;
+    margin-top: -700px;
+    width: 200px;
+    height: 150px;
     
 }
 
 .goku{
-    width: 0px;
-    height: 0px;
+    width: 150px;
+    height: 50px;
 }
 .relogio{
-    width: 0px;
-    height: 0px;
+    width: 150px;
+    height: 150px;
 }
 .tempo-wid{
-    width: 0px;
-    height: 0px;
+    width: 200px;
+    height: 150px;
 }
 
 
