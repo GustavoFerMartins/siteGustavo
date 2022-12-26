@@ -1,3 +1,4 @@
+/* NavBar Mobile */
 class MobileNavbar{
    constructor(mobileMenu, navItems, navLinks) {
     this.mobileMenu = document.querySelector(mobileMenu);
