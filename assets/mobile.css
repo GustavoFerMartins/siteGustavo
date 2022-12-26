@@ -72,7 +72,7 @@ body{
 
 
 .container{
-    height: 180vh;
+    height: 160vh;
     grid-template-areas: 
     "sobre curso-progresso"
     "sobre curso"
