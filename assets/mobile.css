@@ -253,7 +253,7 @@ body{
 h2{
     font-weight: bolder;
     font-size: 1.5rem;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-top: 1rem;
     margin-bottom: 0.5rem;
     text-align: center;
@@ -275,7 +275,7 @@ h2{
 
 .form label{
     font-weight: bolder;
-    color: white;
+    color: rgb(0, 0, 0);
     line-height: 1;
     margin: 11px 0 11px;
 }
@@ -285,7 +285,7 @@ h2{
     font: inherit;
     padding: 0.80rem;
     margin-bottom: 1rem;
-    border: 1px solid transparent;
+    border: 1px solid;
     border-radius: 10px;
     transition: border-color;
     box-shadow: 0.2s;
@@ -301,15 +301,15 @@ h2{
 .form textarea:hover,
 .form textarea:focus {
     outline: none;
-    border-color: rgb(85, 0, 85);
-    box-shadow: 0 0 0 3px rgb(85, 0, 85);
+    border-color: #100033;
+    box-shadow: 0 0 0 3px #100033;
 }
 
 
 .form button{
     display: block;
     padding: 0.80rem;
-    background: rgb(85, 0, 85);
+    background: #1A0051;
     color: azure;
     font: inherit;
     font-weight: bolder;
@@ -323,5 +323,5 @@ h2{
 .form button:hover,
 .form button:focus{
     outline: none;
-    background: purple;
+    background: #100033;
 }
