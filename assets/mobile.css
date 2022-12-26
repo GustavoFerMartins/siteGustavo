@@ -95,8 +95,7 @@ body{
 
 .curso-progresso{
     font-weight: bold;
-    margin-top: 26px;
-    margin-bottom: 0px;
+    margin: auto;
     width: 150px;
     height: 10px;
 }
@@ -112,6 +111,7 @@ body{
     grid-area: "curso";
     display: flex;
     align-items: center;
+    margin: auto;
     
 }
 
@@ -152,8 +152,8 @@ body{
 .sobre{
     margin: 0px 0px 0px -10px;
     border-radius: 10px;
-    width: 200px;
-    height: 1080px;
+    width: auto;
+    height: auto;
     grid-area: "sobre";
     
 }
@@ -175,8 +175,8 @@ body{
 
 .tempo{
     margin: auto;
-    width: 150px;
-    height: 500px;
+    width: auto;
+    height: auto;
     
 }
 
