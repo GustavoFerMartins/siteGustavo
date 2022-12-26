@@ -3,12 +3,8 @@ body{
 }
 
 #navbar{
-    width: 100%;
-    background: linear-gradient(#100033, rgb(6, 5, 104));
-    color: #eee;
     height: 80px;
-    position: fixed;
-    z-index: 1;
+    
 }
 
 .foto{
@@ -18,6 +14,7 @@ body{
 
 }
 .logo{
+    margin-right: 10px;
     font-size: 12px;
 }
 
