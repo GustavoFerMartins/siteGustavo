@@ -242,8 +242,7 @@ body{
     height: 100%;
     position: unset;
     transition: none;
-    padding: 20px 10px;
-    
+    padding: 10px 10px;
     margin-left: 0px;
 }
 
@@ -257,6 +256,7 @@ body{
     letter-spacing: 1px;
     padding-left: 2px;
     padding-right: 2px;
+    
     
 }
 
