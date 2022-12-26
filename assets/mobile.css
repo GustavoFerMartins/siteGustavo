@@ -105,7 +105,6 @@ body{
 }
 
 .curso{
-   
     border-radius: 10px;
     width: 150px;
     height: 50px;
@@ -175,7 +174,7 @@ body{
 }
 
 .tempo{
-    margin-top: -550px;
+    margin: auto;
     width: 150px;
     height: 500px;
     
