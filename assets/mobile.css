@@ -16,9 +16,9 @@ body{
 
 #items{
     position: absolute;
-    top: 30vh;
+    top: 20vh;
     right: 0;
-    width: 50vw;
+    width: 40vw;
     height: 88vh;
     background: rgba(255, 255, 255, 0);
     flex-direction: column;
@@ -30,7 +30,7 @@ body{
 }
     
 #items li{
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 4rem;
     margin-left: 0;
     opacity: 0;
