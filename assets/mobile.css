@@ -142,7 +142,7 @@ body{
 .sobre{
     margin: 0px 0px 0px 10px;
     border-radius: 10px;
-    width: 550px;
+    width: 350px;
     height: 597px;
     grid-area: "sobre";
     grid-row: sobre;
