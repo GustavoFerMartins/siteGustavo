@@ -35,8 +35,8 @@ body{
 }
     
 #items li{
-    font-size: 18px;
-    margin-bottom: 4rem;
+    font-size: 16px;
+    margin-bottom: 3rem;
     margin-left: 0;
     opacity: 0;
     transition: none;
