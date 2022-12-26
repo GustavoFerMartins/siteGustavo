@@ -8,7 +8,7 @@ body{
 
 }
 .logo{
-    font-size: 18px;
+    font-size: 14px;
 }
 .logo{
     font-size: 1rem;
@@ -96,7 +96,7 @@ body{
 }
 
 .curso{
-    margin: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 10px;
     border-radius: 10px;
     width: 550px;
     height: 130px;
@@ -139,7 +139,7 @@ body{
 }
 
 .sobre{
-    margin: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 10px;
     border-radius: 10px;
     width: 550px;
     height: 597px;
@@ -163,7 +163,7 @@ body{
 }
 
 .tempo{
-    margin: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 0px;
     width: 550px;
     height: 430px;
     grid-area: "tempo";
@@ -175,7 +175,7 @@ body{
     height: 150px;
 }
 .tempo-wid{
-    width: 550px;
+    width: 450px;
     height: 275px;
     border-radius: 10px;
 }
