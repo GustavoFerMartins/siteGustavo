@@ -136,7 +136,7 @@ body{
 }
 
 .sobre{
-    margin: 0px 0px 0px 10px;
+    margin: 0px 0px 0px 5px;
     border-radius: 10px;
     width: 200px;
     height: 1080px;
@@ -159,7 +159,7 @@ body{
 }
 
 .tempo{
-    margin-top: -630px;
+    margin-top: -650px;
     width: 150px;
     height: 500px;
     
