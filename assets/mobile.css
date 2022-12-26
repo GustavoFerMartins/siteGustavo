@@ -185,19 +185,19 @@ body{
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: -50px;
+    grid-column-gap: 0px;
     justify-items: center;
 }
 
 
 .box{
     background: linear-gradient(#100033, rgb(6, 5, 104));
-    width: 150px;
-    height: 150px;
-    border-radius: 0px;
-    padding: 10px;
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    padding: 5px;
     position: none;
-    margin: 10px;
+    margin: 5px;
     overflow: none;
     position: unset;
 }
