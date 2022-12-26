@@ -181,23 +181,23 @@ body{
 
 
 .container-box{
-    width: 0%;
+    width: 100%;
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-column-gap: 0px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: -50px;
     justify-items: center;
 }
 
 
 .box{
     background: linear-gradient(#100033, rgb(6, 5, 104));
-    width: 0px;
-    height: 0px;
+    width: 200px;
+    height: 200px;
     border-radius: 0px;
     padding: 0px;
     position: none;
-    margin: 0px;
+    margin: -10px;
     overflow: none;
     position: unset;
 }
