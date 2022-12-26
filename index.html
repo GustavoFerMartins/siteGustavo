@@ -1,58 +1,78 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
-
-    <head>
-        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-        <link rel="stylesheet" href="assets/reset.css">
-        <link rel="stylesheet" href="assets/style.css">
-        <link rel="stylesheet" media="screen and (max-width: 768px)" href="assets/mobile.css">
-        <title>Gustavo Ferreira Martins</title>
-
-    </head>
-
-    <body>
-        <nav id="navbar">
-            <div id="containernav">
-                <h1 class="logo">Gustavo Ferreira Martins</h1>
-
-                <div class="mobile-menu">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                </div>
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="assets/mobile.css">
+    <title>Gustavo Ferreira Martins</title>
 
 
-                <ul id="items">                    
-                    <li><a href="#">Inicio</a></li>                    
-                    <li><a href="projects.html">Projetos</a></li>
-                    <li><a href="contact.html">Contato </a></li>
-                    <li><a href="https://github.com/GustavoFerMartins" target="_blank">GitHub </a> </li>
-                    <!-- <li><a href="jogo.html"> Games</a></li> -->
-                </ul>
+</head>
+
+
+<body>
+    <nav id="navbar">
+        <div id="containernav">
+
+            <div class="fotos">
+                <div class="foto"></div>
+                <div class="nome">
+                    <h1 class="logo" >Gustavo Ferreira Martins </h1>
+                </div>         
             </div>
-        </nav>
+            
 
-        <header id="case">
-            <div id="containercase">
-                <h2></h2>
-                <p></p>
-                <a href="#sobre-info" class="btn">Saiba Mais</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
-        </header>
 
-<!-- About -->
-        <section id="sobre-info">
-            <div id="containerline-info">              
-            </div>
+
+            <ul id="items">
+                                 
+                <li><a href="#" ><img src="assets/fotos/inicio.png" alt="Inicio" class="logos">Inicio</a></li>                               
+                <li><a href="projects.html"><img src="assets/fotos/projetos.png" alt="Projetos" class="logos">Projetos</a></li>                
+                <li><a href="contact.html"><img src="assets/fotos/contato.png" alt="Contato" class="logos">Contato</a></li>                
+                <li><a href="https://github.com/GustavoFerMartins" target="_blank"><img src="assets/fotos/github.png" alt="GitHub" class="logos">GitHub</a> </li>
+
+            
+            </ul>
+        </div>
+    </nav>
+
+    
+    <main>
+        <section class="headline">
         </section>
-        
-        <section class="info-main">
-            <div class="headline">Sobre</div>
-            <div id="featurescontainer">
+
+        <section class="container">
+            <div class="curso-progresso">
+                <h2>Meus cursos em andamento</h2>
+            </div>
+
+            <div class="curso">
+                <img src="assets/fotos/javascript.svg" alt="JavaScript" width="64px" class="curso-andamento-logo"> 
+                <p>JavaScript</p>
+                <div class="porcentagem">
+                    <div></div>
+                </div>
+                <p>42%</p>
+            </div>
+
+
+            <div class="sobre">
                 <div class="feature">
                     <span class="feature-title"></span>
-                    <p>Cursando - Bancos de Dados: Data Science, Big Data & BI</p>
+                    <h2>Sobre Mim</h2>
+                    <p id="tecnologo"><br>USJT - Bancos de Dados: Data Science, Big Data & BI</p>
+
+                </div>
+
+                <div class="feature">
+                    <span class="feature-title"></span>
+
                     <p>Atualmente estou cursando o terceiro semestre, nos dois primeiros semestre da faculdade, no primeiro semestre eu conheci mais sobre redes e hardwares, aprendi a utilizar o Cisco Packet 
                         Tracer para criarmos uma rede para o  nosso projeto, também tive possibilidade de estudar na AWS onde eu aprendi mais sobre os serviços que elas oferecem e como 
                         utilizá-los 
@@ -61,6 +81,7 @@
                         oportunidade de realizar o curso de Java na plataforma da Oracle
                     </p>
                 </div>
+
                 <div class="feature">
                     <span class="feature-title"></span>
                     <p>Tenho como objetivo o primeiro emprego como estágiario/junior, tenho como meta ser voltado a parte de Back-End</p>
@@ -68,31 +89,33 @@
                         é otimo pra quem esta querendo conhecer mais o Java
                     </p>
                 </div>
-                
-            </div>
-        </section>
 
-        <section id="sobre-info">
-            <div id="containerline-info">              
             </div>
-        </section>
 
+
+            <div class="tempo">
+
+                <iframe src="https://widgetbox.app/embed/clock/digital/696781d4-8321-4c1b-a690-92dbb4bbaeda/f8e15e22-bb3a-4060-8f66-98e21906b438" frameborder="0"></iframe>
+                <img src="assets/fotos/goku.gif" alt="goku" class="goku">
+                <iframe src="https://indify.co/widgets/live/weather/zvFcKgM4HUEbfkHPBEtO" frameborder="0" class="tempo-wid"></iframe>
+            </div>
+
+        </section>
+  
         <section class="info-main">
-            <div class="container">
+            <div class="container-box">
                 
                 <div class="box">
                     
-                    <h2>HTML5</h2>
-                    <img src="assets/html.png" class="logos">
+                    <img src="assets/fotos/html5.svg" class="logos">
 
                     <div class="content">
                         <p>Comecei estudando HTML na Alura, onde aprendi a criar a minha primeira marcação de web</p>
                     </div>
                 </div>
 
-                <div class="box"> 
-                    <h2>CSS3</h2>                  
-                    <img src="assets/css-3.png" class="logos">
+                <div class="box">                  
+                    <img src="assets/fotos/css.svg" class="logos">
                     
                     <div class="content">
                         <p>Junto com HTML aprendi CSS para poder estilizar minha pagina web</p>
@@ -100,8 +123,7 @@
                 </div>
 
                 <div class="box">
-                    <h2>JavaScript</h2>
-                    <img src="assets/js.png" class="logos">    
+                    <img src="assets/fotos/javascript.svg" class="logos">    
                     
                     <div class="content">
                         <p>Depois de estudar HTML e CSS fiquei com muita vontade de estudar JavaScript para poder criar animações web</p>
@@ -109,8 +131,7 @@
                 </div>
 
                 <div class="box">
-                    <h2>Java</h2>
-                    <img src="assets/java.png" class="logos"> 
+                    <img src="assets/fotos/java.png" class="logos"> 
                     
                     <div class="content">
                         <p>No segundo semestre da faculdade foi passado Java, onde tive que criar um projeto que simulasse a copa do mundo de 2022</p>
@@ -118,8 +139,7 @@
                 </div>
 
                 <div class="box">                   
-                    <h2>Python</h2>
-                    <img src="assets/python.png" class="logos">  
+                    <img src="assets/fotos/python.svg" class="logos">  
                     
                     <div class="content">
                         <p>Depois de estudar Lógica de Programação tive contato com a minha primeira Linguagem de Programação que foi o nosso querido Python onde tudo é mais fácil!</p>
@@ -127,8 +147,7 @@
                 </div>
 
                 <div class="box">
-                    <h2>MySql</h2>
-                    <img  src="assets/mysql.png" class="logos"> 
+                    <img  src="assets/fotos/mysql.svg" class="logos"> 
                     
                     <div class="content">
                         <p>Junto com Java estudei o CRUD para poder armazernar os dados do meu projeto</p>
@@ -138,12 +157,14 @@
             
             </div>          
         </section>
-        <footer id="footer">
-            <p>A imaginação é mais importante que o conhecimento, porque o conhecimento é limitado, ao passo que a imaginação abrange o mundo inteiro. Albert Einstein</p>
-        </footer>
-        <script src="assets/mobilenav.js"></script>
-        
+    </main>
+    <footer id="footer">
+        <p>A imaginação é mais importante que o conhecimento, porque o conhecimento é limitado, ao passo que a imaginação abrange o mundo inteiro. Albert Einstein</p>
+    </footer>
+    <script src="assets/script.js"></script>
+    <script src="assets/mobilenav.js"></script>
+</body>
 
-    </body>
+
 
 </html>

@@ -1,18 +1,20 @@
+
+
 #case-contact{
-    background-color: rgba(17, 17, 17, 0.959);
+    background: white;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 
 }
 
 h2{
     font-weight: bolder;
     font-size: 3rem;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-bottom: 2rem;
     text-align: center;
     line-height: 1.2;
@@ -33,7 +35,7 @@ h2{
 
 .form label{
     font-weight: bolder;
-    color: white;
+    color: rgb(0, 0, 0);
     line-height: 1;
     margin: 0 0 12px;
 }
@@ -43,7 +45,7 @@ h2{
     font: inherit;
     padding: 1rem;
     margin-bottom: 1rem;
-    border: 1px solid transparent;
+    border: 1px solid;
     border-radius: 10px;
     transition: border-color;
     box-shadow: 0.2s;
@@ -59,8 +61,8 @@ h2{
 .form textarea:hover,
 .form textarea:focus {
     outline: none;
-    border-color: rgb(85, 0, 85);
-    box-shadow: 0 0 0 3px rgb(85, 0, 85);
+    border-color: #100033;
+    box-shadow: 0 0 0 3px #100033;
     transition: 1s all;
     transform: scale(1.05);
 }
@@ -69,7 +71,7 @@ h2{
 .form button{
     display: block;
     padding: 1rem;
-    background: rgb(63, 0, 63);
+    background: #1A0051;
     color: azure;
     font: inherit;
     font-weight: bolder;
@@ -83,6 +85,6 @@ h2{
 .form button:hover,
 .form button:focus{
     outline: none;
-    background: rgb(139, 57, 139);
+    background: #100033;
     transform: scale(1.05);
 }

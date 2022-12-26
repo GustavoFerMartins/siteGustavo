@@ -1,21 +1,28 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/contact.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="assets/mobile.css">
+    <title>Gustavo Ferreira Martins</title>
 
-    <head>
-        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-        <link rel="stylesheet" href="assets/reset.css">
-        <link rel="stylesheet" href="assets/style.css">
-        <link rel="stylesheet" href="assets/contact.css">
-        <link rel="stylesheet" media="screen and (max-width: 768px)" href="assets/mobile.css">
-        <title>Gustavo Ferreira Martins</title>
+
 </head>
 
 
 <body>
     <nav id="navbar">
         <div id="containernav">
-            <h1 class="logo">Gustavo Ferreira Martins</h1>
+
+            <div class="fotos">
+                <div class="foto"></div>
+                <div class="nome">
+                    <h1 class="logo" >Gustavo Ferreira Martins </h1> 
+                </div>         
+            </div>
+            
 
             <div class="mobile-menu">
                 <div class="line1"></div>
@@ -24,43 +31,46 @@
             </div>
 
 
-            <ul id="items">                    
-                <li><a href="index.html">Inicio</a></li>                    
-                <li><a href="projects.html">Projetos</a></li>
-                <li><a href="contact.html">Contato </a></li>
-                <li><a href="https://github.com/GustavoFerMartins"> GitHub </a> </li>
-                <!-- <li><a href="jogo.html"> Games</a></li> -->
+            <ul id="items">
+                                 
+                <li><a href="index.html" ><img src="assets/fotos/inicio.png" alt="Inicio" class="logos">Inicio</a></li>                               
+                <li><a href="projects.html"><img src="assets/fotos/projetos.png" alt="Projetos" class="logos">Projetos</a></li>                
+                <li><a href="contact.html"><img src="assets/fotos/contato.png" alt="Contato" class="logos">Contato</a></li>                
+                <li><a href="https://github.com/GustavoFerMartins" target="_blank"><img src="assets/fotos/github.png" alt="GitHub" class="logos">GitHub</a> </li>
+
+            
             </ul>
         </div>
     </nav>
 
+        
+    <main>
 
-     <section class="info-contact">
-            
-    </section>
-    <header id="case-contact">
-        <h2>Formulário de Contato</h2>
+        <header id="case-contact">
+            <h2>Formulário de Contato</h2>
 
-        <form action="https://formsubmit.co/gmartins23ustavo@gmail.com" method="POST" class="form">
+            <form action="https://formsubmit.co/gmartins23ustavo@gmail.com" method="POST" class="form">
 
-        <label for="name">Nome</label>
-        <input type="text" name="name" id="name" required>
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name" required>
 
-        <label for="email">E-Mail</label>
-        <input type="email" name="email" id="email" required placeholder="seuemail@dominio.com">
+            <label for="email">E-Mail</label>
+            <input type="email" name="email" id="email" required placeholder="seuemail@dominio.com">
 
-        <label for="texto">Mensagem</label>
-        <textarea name="message" placeholder="Escreva aqui" id="texto"></textarea>
+            <label for="texto">Mensagem</label>
+            <textarea name="message" placeholder="Escreva aqui" id="texto"></textarea>
 
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://site-gustavo2.vercel.app/contact.html">
-        <button type="submit">Enviar</button>
-        </form>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://site-gustavo2.vercel.app/contact.html">
+            <button type="submit">Enviar</button>
+            </form>
 
 
-    </header>
+        </header>
 
-    <script src="assets/mobilenav.js"></script>
+        <script src="assets/mobilenav.js"></script>
+
+    </main>
 </body>
 
 
