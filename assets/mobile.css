@@ -192,12 +192,12 @@ body{
 
 .box{
     background: linear-gradient(#100033, rgb(6, 5, 104));
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 0px;
-    padding: 0px;
+    padding: 10px;
     position: none;
-    margin: -10px;
+    margin: 10px;
     overflow: none;
     position: unset;
 }
