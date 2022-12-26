@@ -41,7 +41,7 @@ body{
     opacity: 0;
     transition: none;
     color: white;
-    background: rgb(37, 37, 37);
+    background: linear-gradient(#100033, rgb(6, 5, 104));
 }
 #items li:hover{
     transform: none;
