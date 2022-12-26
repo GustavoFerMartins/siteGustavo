@@ -13,6 +13,7 @@ body{
 
 
 #items{
+    z-index: 0;
     position: absolute;
     top: 12vh;
     right: 0;
@@ -193,6 +194,7 @@ body{
 
 
 .box{
+
     background: linear-gradient(#100033, rgb(6, 5, 104));
     width: 170px;
     height: 170px;
@@ -214,21 +216,21 @@ body{
 }
 
 .box .logos {
-    width: 128px;
-    position: none;
+    opacity: 100%;
+    width: 32px;
     position: unset;
-    top: 50%;
-    left: 50%;
+    margin-left: 2px;
+    margin-top: 2px;
     transform: translate(0%, 0%);
     font-size: 10rem;
     transition: none;
 }
 
 .box:hover .logos{
-    font-size: 3rem;
+    font-size: 1rem;
     transform: translate(0px, 0px);
-    width: 48px;
-    opacity: 30%;
+    width: 32px;
+    opacity: 100%;
 
 }
 
@@ -240,8 +242,8 @@ body{
     height: 100%;
     position: unset;
     transition: none;
-    padding: 10px 10px;
-    margin-top: 0px;
+    padding: 20px 10px;
+    
     margin-left: 0px;
 }
 
@@ -253,8 +255,9 @@ body{
 .box .content p{
     color: rgb(255, 255, 255);
     letter-spacing: 1px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    
 }
 
 
