@@ -84,118 +84,114 @@ body{
 }
 
 .container{
-    max-width: 468px;
-    height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 68.5vh;
+    display: grid;
+
     grid-template-areas: 
     "sobre curso-progresso"
     "sobre curso"
     "sobre tempo";
-    justify-content: space-between;
-    
+
 }
 
 .curso-progresso{
     font-weight: bold;
-    margin: auto;
-    width: auto;
-    height: 10px;
+    margin-top: 45px;
+    width: 550px;
+    height: 30px;
 }
 .curso-progresso h2{
-    font-size: 1rem;
-    margin: auto;
+    font-size: 2rem;
+    color: black;
 }
 
 .curso{
+    margin: 20px 0px 0px 0px;
     border-radius: 10px;
-    width: auto;
-    height: 50px;
+    width: 550px;
+    height: 130px;
     background: linear-gradient(#100033, rgb(6, 5, 104));
     grid-area: "curso";
     display: flex;
     align-items: center;
-    margin: auto;
     
 }
 
 .curso-andamento-logo{
-    margin: 1px;
-    width: 20px;
+    margin: 0 0 0 20px;
 }
 
 .curso p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 8px;
+    font-size: 16px;
     font-weight: bold;
-    margin: 1px;
+    margin: 5px;
     border-radius: 10px;
     color: rgb(255, 255, 255);
 }
 
 .porcentagem{
     background: rgb(255, 255, 255);
-    margin-left: 3px;
-    margin-right: 3px;
-    width: 60px;
-    height: 15px;
+    margin-left: 20px;
+    width: 280px;
+    height: 30px;
     border-radius: 10px;
 }
 .porcentagem div{
     background: rgb(0, 87, 138);
-    width: 60px;
-    height: 15px;
+    width: 280px;
+    height: 30px;
     border-radius: 10px;
 }
 
 #tecnologo{
-    margin-bottom: 5px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .sobre{
-    margin: auto;
+    margin: 20px 0px 0px 20px;
     border-radius: 10px;
-    width: 200px;
-    height: auto;
+    width: 550px;
+    height: 597px;
     grid-area: "sobre";
+    grid-row: sobre;
     
 }
 
 .sobre .feature{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
+    line-height: 1.15;
     margin: 5px;
-    padding: 2px;
+    padding: 10px;
     border-radius: 10px;
     color: rgb(0, 0, 0);
 }
 
 .sobre h2{
-    margin: auto;
-    font-size: 1.2rem;
+    color: black;
+    font-size: 2rem;
 }
 
 .tempo{
-    width: 250px;
-    height: auto;
-    margin: auto;
+    margin: 15px 0px 0px 0px;
+    width: 550px;
+    height: 430px;
+    grid-area: "tempo";
     
 }
 
 .goku{
-    width: 250px;
-    height: auto;
-    margin: auto;
-}
-.relogio{
     width: 200px;
-    height: auto;
-    margin: auto;
+    height: 150px;
 }
 .tempo-wid{
-    width: 200px;
-    height: 550px;
-    margin: auto;
+    width: 550px;
+    height: 200px;
+    border-radius: 10px;
 }
 
 
