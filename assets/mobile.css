@@ -191,10 +191,14 @@ body{
     margin-bottom: auto;
 }
 .tempo-wid{
-    width: 200px;
-    height: 520px;
+    width: auto;
+    height: auto;
 }
 
+
+
+
+/* -------------------------------- */
 
 .container-box{
     width: 100%;
