@@ -84,7 +84,7 @@ body{
 }
 
 .container{
-    max-width: 468px;
+    max-width: 568px;
     height: auto;
     grid-template-areas: 
     "sobre curso-progresso"
@@ -177,12 +177,12 @@ body{
 .tempo{
     width: 250px;
     height: auto;
-    
+    margin: auto;
     
 }
 
 .goku{
-    width: 200px;
+    width: 250px;
     height: auto;
     margin: auto;
 }
