@@ -84,7 +84,7 @@ body{
 }
 
 .container{
-    max-width: 468px;
+    max-width: 368px;
     height: auto;
     grid-template-areas: 
     "sobre curso-progresso"
@@ -193,7 +193,7 @@ body{
 }
 .tempo-wid{
     width: auto;
-    height: auto;
+    height: 550px;
 }
 
 
