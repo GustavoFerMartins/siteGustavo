@@ -181,8 +181,8 @@ body{
 }
 
 .goku{
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height: 100px;
     margin: auto;
 }
 .relogio{
@@ -191,7 +191,7 @@ body{
     margin-bottom: auto;
 }
 .tempo-wid{
-    width: auto;
+    width: 150px;
     height: auto;
 }
 
