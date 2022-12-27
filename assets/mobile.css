@@ -179,8 +179,8 @@ body{
 }
 
 .goku{
-    width: 150px;
-    height: 100px;
+    width: auto;
+    height: auto;
     margin: auto;
 }
 .relogio{
