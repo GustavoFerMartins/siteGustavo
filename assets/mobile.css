@@ -152,7 +152,7 @@ body{
 .sobre{
     margin: auto;
     border-radius: 10px;
-    width: 250px;
+    width: 300px;
     height: auto;
     grid-area: "sobre";
     
