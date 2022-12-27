@@ -80,7 +80,7 @@ body{
 }
 
 .headline{
-    height: 7vh;
+    height: 10vh;
 }
 
 .container{
@@ -102,7 +102,7 @@ body{
 }
 .curso-progresso h2{
     font-size: 1rem;
-    margin: ;
+    margin: auto;
 }
 
 .curso{
@@ -154,7 +154,7 @@ body{
 .sobre{
     margin: auto;
     border-radius: 10px;
-    width: 200px;
+    width: auto;
     height: auto;
     grid-area: "sobre";
     
@@ -176,24 +176,24 @@ body{
 }
 
 .tempo{
-    width: 250px;
+    width: 100px;
     height: auto;
     margin: auto;
     
 }
 
 .goku{
-    width: 250px;
+    width: 100px;
     height: auto;
     margin: auto;
 }
 .relogio{
-    width: 200px;
+    width: 100px;
     height: auto;
     margin: auto;
 }
 .tempo-wid{
-    width: 200px;
+    width: 100px;
     height: 550px;
     margin: auto;
 }
