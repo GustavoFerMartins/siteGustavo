@@ -84,6 +84,7 @@ body{
 }
 
 .container{
+    max-width: 468px;
     height: auto;
     grid-template-areas: 
     "sobre curso-progresso"
