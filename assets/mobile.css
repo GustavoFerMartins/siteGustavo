@@ -85,13 +85,12 @@ body{
 
 .container{
     max-width: 468px;
-    margin-top: 200px;
     height: auto;
     grid-template-areas: 
     "sobre curso-progresso"
     "sobre curso"
     "sobre tempo";
-    justify-content: center;
+    justify-content: space-around;
     
 }
 
