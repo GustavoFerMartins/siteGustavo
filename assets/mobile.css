@@ -150,8 +150,8 @@ body{
 }
 
 .sobre{
-    margin: auto; 
-    
+    margin-left: 5px;
+
     border-radius: 10px;
     width: 200px;
     height: auto;
