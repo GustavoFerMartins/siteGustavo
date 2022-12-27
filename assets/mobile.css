@@ -80,11 +80,12 @@ body{
 }
 
 .headline{
-    height: 30vh;
+    height: 10vh;
 }
 
 .container{
     max-width: 468px;
+    margin: auto;
     height: auto;
     grid-template-areas: 
     "sobre curso-progresso"
