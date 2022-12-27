@@ -175,25 +175,26 @@ body{
 }
 
 .tempo{
-    margin: auto;
     width: 100px;
     height: auto;
+    margin: auto;
     
 }
 
 .goku{
-    width: auto;
+    width: 100px;
     height: auto;
     margin: auto;
 }
 .relogio{
-    width: auto;
+    width: 100px;
     height: auto;
-    margin-bottom: auto;
+    margin: auto;
 }
 .tempo-wid{
-    width: auto;
-    height: 550px;
+    width: 100px;
+    height: auto;
+    margin: auto;
 }
 
 
