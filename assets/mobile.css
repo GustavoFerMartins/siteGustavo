@@ -160,9 +160,9 @@ body{
 
 .sobre .feature{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
-    margin: auto;
+    margin: 5px;
     padding: auto;
     border-radius: 10px;
     color: rgb(0, 0, 0);
