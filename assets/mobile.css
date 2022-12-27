@@ -176,7 +176,7 @@ body{
 .tempo{
     margin: auto;
     width: 200px;
-    height: auto;
+    height: 800px;
     
 }
 
@@ -191,8 +191,8 @@ body{
     margin-bottom: auto;
 }
 .tempo-wid{
-    width: auto;
-    height: auto;
+    width: 150px;
+    height: 530px;
 }
 
 
