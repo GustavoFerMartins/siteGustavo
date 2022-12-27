@@ -91,7 +91,7 @@ body{
     "sobre curso"
     "sobre tempo";
     margin: auto;
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
 
@@ -107,14 +107,14 @@ body{
 }
 
 .curso{
+    margin: auto;
     border-radius: 10px;
     width: auto;
     height: 50px;
     background: linear-gradient(#100033, rgb(6, 5, 104));
     grid-area: "curso";
-    display: flex;
-    align-items: center;
-    margin: auto;
+    
+
     
 }
 
@@ -148,8 +148,8 @@ body{
 }
 
 #tecnologo{
+    width: auto;
     margin: auto;
-    
     font-size: 1.2rem;
 }
 
@@ -178,24 +178,24 @@ body{
 }
 
 .tempo{
-    width: 100px;
+    width: 149px;
     height: auto;
     margin: auto;
     
 }
 
 .goku{
-    width: 145px;
+    width: 149px;
     height: auto;
     margin: auto;
 }
 .relogio{
-    width: 145px;
+    width: 149px;
     height: auto;
     margin: auto;
 }
 .tempo-wid{
-    width: 145px;
+    width: 149px;
     height: 550px;
     margin: auto;
 }
