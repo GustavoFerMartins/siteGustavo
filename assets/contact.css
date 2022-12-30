@@ -61,8 +61,8 @@ h2{
 .form textarea:hover,
 .form textarea:focus {
     outline: none;
-    border-color: #100033;
-    box-shadow: 0 0 0 3px #100033;
+    border-color: #213435;
+    box-shadow: 0 0 0 3px #213435;
     transition: 1s all;
     transform: scale(1.05);
 }
@@ -71,7 +71,7 @@ h2{
 .form button{
     display: block;
     padding: 1rem;
-    background: #1A0051;
+    background: #213435;;
     color: azure;
     font: inherit;
     font-weight: bolder;
@@ -85,6 +85,6 @@ h2{
 .form button:hover,
 .form button:focus{
     outline: none;
-    background: #100033;
+    background: #213435b4;;
     transform: scale(1.05);
 }

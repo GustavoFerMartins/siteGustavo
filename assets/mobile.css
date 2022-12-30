@@ -43,7 +43,7 @@ body{
     opacity: 0;
     transition: none;
     color: white;
-    background: linear-gradient(#100033, rgb(6, 5, 104));
+    background: #213435;
 }
 #items li:hover{
     transform: none;
@@ -554,15 +554,12 @@ h2{
 .form textarea:hover,
 .form textarea:focus {
     outline: none;
-    border-color: #100033;
-    box-shadow: 0 0 0 3px #100033;
 }
 
 
 .form button{
     display: block;
     padding: 0.80rem;
-    background: #1A0051;
     color: azure;
     font: inherit;
     font-weight: bolder;
@@ -576,5 +573,4 @@ h2{
 .form button:hover,
 .form button:focus{
     outline: none;
-    background: #100033;
 }
