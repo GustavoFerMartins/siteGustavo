@@ -20,24 +20,56 @@
    
 }
 
-.sobre{
+.sobre-perfil{
   margin-top: 2rem;
   line-height: 2rem;
 }
 
-.sobre h1{
+.sobre-perfil h1{
     font-size: 1.5rem;
     text-transform: capitalize;
 }
 
-.sobre p{
+.sobre-perfil p{
     font-size: 1.1rem;
 }
+
+.localiza{
+    display: flex;
+    align-items: center;
+}
+
+
+.localiza::before{
+    content: "";
+    height: 24px;
+    width: 24px;
+    margin-right: 7px;
+    background: url(/assets/fotos/localizacao.png) 50% no-repeat;
+    background-size: contain;
+}
+
+.oemail{
+    display: flex;
+    align-items: center;
+}
+
+.oemail::before{
+    content: "";
+    height: 24px;
+    width: 24px;
+    margin-right: 7px;
+    background: url(/assets/fotos/o-email.png) 50% no-repeat;
+    background-size: contain;
+}
+
+
 
 .conteudo{
     border: 0.1rem solid #46685B;
     padding: 1rem;
     border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 
@@ -60,8 +92,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
+
+.box-curso:hover{
+    background: #5f8f7d1f;
+}
 .curso-logo{
     width: 2.5rem;
     margin: 0.5rem;

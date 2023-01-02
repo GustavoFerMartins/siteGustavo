@@ -129,6 +129,7 @@ a{
 }
 
 .curso{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     margin: 0.20rem;
     padding: 0.25rem;
     border-radius: 10px;
@@ -140,7 +141,7 @@ a{
     align-items: center;
     justify-content: space-between;
     border: 2px solid;
-    
+    margin-left: 1rem;
 }
 
 .curso-andamento-logo{
@@ -175,6 +176,7 @@ a{
 }
 
 .curso-dois{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     margin: 0.20rem;
     padding: 0.25rem;
     border-radius: 10px;
@@ -186,6 +188,7 @@ a{
     align-items: center;
     justify-content: space-around;
     border: 2px solid;
+    margin-left: 1rem;
     
 }
 
@@ -220,6 +223,7 @@ a{
 #tecnologo{
     font-size: 1.5rem;
     margin-bottom: 10px;
+    
 }
 
 
@@ -242,7 +246,8 @@ a{
 }
 
 .sobre{
-    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 1rem;
     grid-area: "sobre";
     grid-row: sobre;
 }
@@ -252,37 +257,36 @@ a{
     font-weight: bold;
     line-height: 1.15;
     margin: 1rem;
-    padding: 0.75rem;
-    margin-top: 0;
-    padding-top: 0;
+    padding: 1rem;
+    margin-top: 1rem;
     border-radius: 10px;
     color: rgb(0, 0, 0);
 }
 
-.sobre .feature:nth-child(1n) {
-    margin-left: 0;
-    padding-left: 0;
 
-}
 .sobre h2{
     color: black;
     font-size: 2rem;
 }
 
 .tempo{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     display: flex;
     flex-wrap: wrap;
+    margin-left: 1rem;
+    padding: 5px;
+    border-radius: 1rem;
 }
 
 .relogio{
     width: 40%;
-    height: 40%;
+    height: 35%;
     flex-grow: 1;
     grid-area: "relogio";
 }
 .goku{
     width: 40%;
-    height: 40%;
+    height: 35%;
     grid-area: "goku";
 }
 .tempo-wid{
@@ -303,6 +307,7 @@ a{
 }
 
 .box{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     flex-grow: 1;
     border: 2px solid;
     background: #46685B;
