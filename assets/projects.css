@@ -1,0 +1,120 @@
+.container-projects{
+    border: 1px solid green;
+    border-radius: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "projeto projeto1 projeto2"
+    "projeto3 projeto4 projeto5"
+    "projeto6 projeto7 projeto8";
+  
+   
+}
+
+
+.projeto{
+    margin: 0.5rem;
+    width: auto;
+    height: 300px;
+    border: 1px solid #9EC6B8;
+    border-radius: 1rem;
+    grid-area: projeto;
+    
+}
+
+.projeto .imagem{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.projeto1{
+    margin: 0.5rem;
+    width: auto;
+    height: 300px;
+    border: 1px solid #9EC6B8;
+    border-radius: 1rem;
+    grid-area: projeto1;
+}
+
+.projeto2{
+    margin: 0.5rem;
+    width: auto;
+    height: 300px;
+    border: 1px solid #9EC6B8;
+    border-radius: 1rem;
+    grid-area: projeto2;
+}
+
+.projeto3{
+    margin: 0.5rem;
+    width: auto;
+    height: 300px;
+    border: 1px solid #9EC6B8;
+    border-radius: 1rem;
+    grid-area: projeto3;
+}
+
+.projeto4{
+    margin: 0.5rem;
+    width: auto;
+    height: 300px;
+    border: 1px solid #9EC6B8;
+    border-radius: 1rem;
+    grid-area: projeto4;
+}
+
+.projeto5{
+    margin: 0.5rem;
+    width: auto;
+    height: 300px;
+    border: 1px solid #9EC6B8;
+    border-radius: 1rem;
+    grid-area: projeto5;
+}
+
+
+.projeto6{
+    margin: 0.5rem;
+    width: auto;
+    height: 300px;
+    border: 1px solid #9EC6B8;
+    border-radius: 1rem;
+    grid-area: projeto6;
+}
+
+.projeto7{
+    margin: 0.5rem;
+    width: auto;
+    height: 300px;
+    border: 1px solid #9EC6B8;
+    border-radius: 1rem;
+    grid-area: projeto7;
+}
+
+.projeto8{
+    margin: 0.5rem;
+    width: auto;
+    height: 300px;
+    border: 1px solid #9EC6B8;
+    border-radius: 1rem;
+    grid-area: projeto8;
+}
+
+
+#footer{
+    background: #213435;
+    color: #eee;
+    padding: 30px;
+    text-align: center;
+}
