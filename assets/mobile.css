@@ -79,7 +79,7 @@ body{
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 768px){
     .headline{
         height: 12vh;
     }
@@ -93,12 +93,8 @@ body{
     
     .curso-progresso{
         font-weight: lighter;
-        margin: auto;
-        width: auto;
-        height: auto;
     }
     .curso-progresso h2{
-        margin: auto;
         font-size: 1.2rem;
     }
     
@@ -166,17 +162,20 @@ body{
         font-size: 1rem;
     }
     
-    .sobre{
-        margin: auto;
-        width: auto;
-        height: auto;
-        padding: 5px;
+
+    .sobre-titulo{
+        font-weight: lighter;
+    }
+    .sobre-titulo h2{
+        font-size: 1.2rem;
     }
     
     .sobre .feature{
         font-size: 14px;
         font-weight: lighter;
         padding: auto;
+        margin-top: 0;
+        padding-top: 0;
     }
     
     .sobre h2{
@@ -287,215 +286,6 @@ body{
     }
 }
 
-@media screen and (max-width: 600px){
-    .headline{
-        height: 12vh;
-    }
-    
-    .container{
-        max-width: 100%;
-        height: auto;
-        justify-content: space-between;
-        
-    }
-    
-    .curso-progresso{
-        font-weight: lighter;
-        margin: auto;
-        width: auto;
-        height: auto;
-    }
-    .curso-progresso h2{
-        margin: auto;
-        font-size: 1.2rem;
-    }
-    
-    .curso{
-        margin: auto;
-        width: 150px;
-        height: 50px;
-    }
-    
-    .curso-andamento-logo{
-        margin: 1px;
-        width: 20px;
-    }
-    
-    .curso p{
-        font-size: 8px;
-        font-weight: lighter;
-        margin: 1px;
-    }
-    
-    .porcentagem{
-        margin-left: 3px;
-        margin-right: 3px;
-        width: 60px;
-        height: 15px;
-       
-    }
-    .porcentagem div{
-        width: 60px;
-        height: 15px;
-    }
-
-    .curso-dois{
-        margin: auto;
-        width: 150px;
-        height: 50px;
-    }
-    
-    .curso-andamento-logo-dois{
-        margin: 1px;
-        width: 20px;
-    }
-    
-    .curso-dois p{
-        font-size: 8px;
-        font-weight: lighter;
-        margin: 1px;
-    }
-    
-    .porcentagem-dois{
-        margin-left: 3px;
-        margin-right: 3px;
-        width: 60px;
-        height: 15px;
-       
-    }
-    .porcentagem-dois div{
-        width: 60px;
-        height: 15px;
-    }
-    
-    #tecnologo{
-        width: auto;
-        margin: auto;
-        font-size: 1rem;
-    }
-    
-    .sobre{
-        
-        margin: auto;
-        width: auto;
-        height: auto;
-        padding: 5px;
-    }
-    
-    .sobre .feature{
-        font-size: 14px;
-        font-weight: lighter;
-        padding: auto;
-    }
-    
-    .sobre h2{
-        margin: auto;
-        font-size: 1.2rem;
-    }
-    
-    .tempo{
-        width: 150px;
-        height: auto;
-        margin: auto;
-    }
-    
-    .goku{
-        width: 150px;
-        height: auto;
-        margin: auto;
-    }
-    .relogio{
-        width: 150px;
-        height: auto;
-        margin: auto;
-    }
-    .tempo-wid{
-        width: 150px;
-        height: 550px;
-        margin: auto;
-    }
-    
-    
-    
-    .container-box{
-        width: 100%;
-        margin: auto;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 0px;
-        justify-items: center;
-    }
-    
-    
-    .box{
-        width: 170px;
-        height: 170px;
-        border-radius: 10px;
-        padding: 5px;
-        position: none;
-        margin: 5px;
-        overflow: none;
-        position: unset;
-    }
-    
-    .box:hover{
-        opacity: 100%;
-    }
-    .box h2{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 18px;
-        font-weight: normal;
-    }
-    
-    .box .logos {
-        opacity: 100%;
-        width: 32px;
-        position: unset;
-        margin: 5px 15px 5px 5px;
-        transform: translate(0%, 0%);
-        font-size: 10rem;
-        transition: none;
-    }
-    
-    .box:hover .logos{
-        font-size: 1rem;
-        transform: translate(0px, 0px);
-        width: 32px;
-        opacity: 100%;
-    
-    }
-    
-    .box .content{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 12px;
-        font-weight: bold;
-        width: 100%;
-        height: 100%;
-        position: unset;
-        transition: none;
-        padding: 5px 5px;
-        margin-left: 0px;
-    }
-    
-    
-    .box:hover .content{
-        transform: none;
-    }
-    
-    .box .content p{
-        color: rgb(255, 255, 255);
-        letter-spacing: 1px;
-        padding-left: 2px;
-        padding-right: 2px;
-        
-        
-    }
-    
-    #footer{
-        padding: 15px;
-        font-size: 10px;
-    }
-}
 
 
 /* Contact */
@@ -504,32 +294,17 @@ body{
 
 
 h2{
-    font-weight: bolder;
     font-size: 1.5rem;
-    color: rgb(0, 0, 0);
-    margin-top: 2rem;
     margin-bottom: 0.5rem;
-    text-align: center;
     line-height: 1;
 }
 
 .form{
-    width: 100%;
     max-width: 17rem;
     font-size: 0.90rem;
 }
-.form label,
-.form input,
-.form textarea,
-.form button{
-    display: block;
-    width: 100%;
-}
 
 .form label{
-    font-weight: bolder;
-    color: rgb(0, 0, 0);
-    line-height: 1;
     margin: 11px 0 11px;
 }
 
@@ -538,10 +313,6 @@ h2{
     font: inherit;
     padding: 0.80rem;
     margin-bottom: 1rem;
-    border: 1px solid;
-    border-radius: 10px;
-    transition: border-color;
-    box-shadow: 0.2s;
 }
 
 .form textarea{
@@ -554,20 +325,15 @@ h2{
 .form textarea:hover,
 .form textarea:focus {
     outline: none;
+    transition: none;
+    transform: none;
 }
 
 
 .form button{
-    display: block;
     padding: 0.80rem;
-    color: azure;
-    font: inherit;
-    font-weight: bolder;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 0.2s;
+    cursor: none;
+    transition: none;
 }
 
 .form button:hover,
