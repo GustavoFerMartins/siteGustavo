@@ -1,12 +1,6 @@
 .container-projects{
-    border: 1px solid green;
-    border-radius: 1rem;
     max-width: 1200px;
     margin: 0 auto;
-    margin-bottom: 1%;
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-bottom: 1%;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -15,7 +9,7 @@
     "projeto projeto1 projeto2"
     "projeto3 projeto4 projeto5"
     "projeto6 projeto7 projeto8";
-  
+    margin-bottom: 1%;
    
 }
 
@@ -32,9 +26,48 @@
 
 .projeto .imagem{
     margin: auto;
+    margin-top: 1.5%;
     display: flex;
     justify-content: space-around;
     
+}
+.sobre-projeto{
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sobre-projeto h2{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1.5%;
+}
+
+.sobre-projeto p{
+    
+    font-size: 1rem;
+    display: flex;
+   
+}
+
+.github{
+    font-size: 1rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.github::before{
+    content: "";
+    height: 24px;
+    width: 24px;
+    margin-right: 7px;
+    background: url(/assets/fotos/icon-github-big.svg) 50% no-repeat;
+    background-size: contain;
 }
 
 
