@@ -1,4 +1,4 @@
-.container-projects{
+.container-projects-java{
     max-width: 1200px;
     margin: 0 auto;
     height: auto;
@@ -13,6 +13,26 @@
    
 }
 
+.projeto-linguagem{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 1.5%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.projeto-linguagem img{
+    height: 64px;
+    width: 64px;
+    margin-right: 1rem;
+}
+
+.projeto-linguagem p{
+    font-weight: bold;
+    font-size: 2rem;
+}
 
 .projeto{
     margin: 0.5rem;
@@ -21,16 +41,23 @@
     border: 1px solid #9EC6B8;
     border-radius: 1rem;
     grid-area: projeto;
-    
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-
-.projeto .imagem{
+.imagem{
     margin: auto;
     margin-top: 1.5%;
     display: flex;
     justify-content: space-around;
     
 }
+
+
+.projeto:hover img{
+    width: 90%;
+    height: 90%;
+    border-radius: 1rem;
+}
+
 .sobre-projeto{
     font-size: 1rem;
     display: flex;
@@ -78,7 +105,15 @@
     border: 1px solid #9EC6B8;
     border-radius: 1rem;
     grid-area: projeto1;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
+
+.projeto1:hover img{
+    width: 90%;
+    height: 90%;
+    border-radius: 1rem;
+}
+
 
 .projeto2{
     margin: 0.5rem;
@@ -87,6 +122,13 @@
     border: 1px solid #9EC6B8;
     border-radius: 1rem;
     grid-area: projeto2;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.projeto2:hover img{
+    width: 90%;
+    height: 90%;
+    border-radius: 1rem;
 }
 
 .projeto3{
@@ -96,6 +138,13 @@
     border: 1px solid #9EC6B8;
     border-radius: 1rem;
     grid-area: projeto3;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.projeto3:hover img{
+    width: 90%;
+    height: 90%;
+    border-radius: 1rem;
 }
 
 .projeto4{
@@ -105,6 +154,13 @@
     border: 1px solid #9EC6B8;
     border-radius: 1rem;
     grid-area: projeto4;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.projeto4:hover img{
+    width: 90%;
+    height: 90%;
+    border-radius: 1rem;
 }
 
 .projeto5{
@@ -114,8 +170,15 @@
     border: 1px solid #9EC6B8;
     border-radius: 1rem;
     grid-area: projeto5;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
+
+.projeto5:hover img{
+    width: 90%;
+    height: 90%;
+    border-radius: 1rem;
+}
 
 .projeto6{
     margin: 0.5rem;
@@ -124,6 +187,14 @@
     border: 1px solid #9EC6B8;
     border-radius: 1rem;
     grid-area: projeto6;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+.projeto6:hover img{
+    width: 90%;
+    height: 90%;
+    border-radius: 1rem;
 }
 
 .projeto7{
@@ -133,6 +204,14 @@
     border: 1px solid #9EC6B8;
     border-radius: 1rem;
     grid-area: projeto7;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+.projeto7:hover img{
+    width: 90%;
+    height: 90%;
+    border-radius: 1rem;
 }
 
 .projeto8{
@@ -142,8 +221,30 @@
     border: 1px solid #9EC6B8;
     border-radius: 1rem;
     grid-area: projeto8;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
+.projeto8:hover img{
+    width: 90%;
+    height: 90%;
+    border-radius: 1rem;
+}
+
+
+.container-projects-python{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "projeto projeto1 projeto2"
+    "projeto3 projeto4 projeto5"
+    "projeto6 projeto7 projeto8";
+    margin-bottom: 1%;
+   
+}
 
 #footer{
     background: #213435;
