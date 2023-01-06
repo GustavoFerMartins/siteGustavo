@@ -8,7 +8,7 @@
 }
 
 .img-name{
-    margin: auto;
+    margin: 2%;
 }
 
 .image{
@@ -67,6 +67,8 @@
 
 
 .conteudo{
+    margin-top: 2%;
+    flex-grow: 1;
     border: 0.1rem solid #46685B;
     padding: 1rem;
     border-radius: 1rem;
